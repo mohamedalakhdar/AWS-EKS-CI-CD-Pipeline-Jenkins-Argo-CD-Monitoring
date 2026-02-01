@@ -1,4 +1,4 @@
-project architecture
+## Project Architecture
 
 ![alt text](<Screenshot 2026-01-29 213750.png>)
 
