@@ -24,4 +24,18 @@ Finalized the pipeline with cleanup and post-build actions to maintain a stable 
 
 ![alt text](<Screenshot 2026-02-01 160128.png>)
 
+## GitOps / CD process (ArgoCD)
 
+Implemented Continuous Deployment using ArgoCD for one Kubernetes Deployment and one Service.
+
+Stored manifests in Git as the single source of truth.
+
+ArgoCD automatically applied changes from Git to the Kubernetes cluster.
+
+Enabled automatic rollback in case of deployment issues.
+
+Monitored cluster health to ensure a stable deployment.
+
+![alt text](<Screenshot 2026-01-31 192213.png>)
+
+## Monitoring using Prometheus & Grafana
