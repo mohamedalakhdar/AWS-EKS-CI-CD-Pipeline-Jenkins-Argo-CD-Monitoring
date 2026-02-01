@@ -24,13 +24,15 @@ Finalized the pipeline with cleanup and post-build actions to maintain a stable 
 
 ![alt text](<Screenshot 2026-02-01 160128.png>)
 
-## GitOps / CD process (ArgoCD)
+## GitOps / CD process (ArgoCD & EKS)
 
 Implemented Continuous Deployment using ArgoCD for one Kubernetes Deployment and one Service.
 
+Deployed the application on Amazon EKS, creating the cluster with eksctl.
+
 Stored manifests in Git as the single source of truth.
 
-ArgoCD automatically applied changes from Git to the Kubernetes cluster.
+ArgoCD automatically applied changes from Git to the EKS cluster.
 
 Enabled automatic rollback in case of deployment issues.
 
