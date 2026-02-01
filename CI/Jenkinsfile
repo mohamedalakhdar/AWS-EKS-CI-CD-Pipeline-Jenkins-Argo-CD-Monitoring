@@ -23,7 +23,7 @@ pipeline {
 
         stage('Checkout from Git') {
             steps {
-                git branch: 'master', url: 'https://github.com/mohamedalakhdar/AWS-EKS-CI-CD-Pipeline-Jenkins-Argo-CD-Monitoring-.git' , credentialsId: 'github-credential'
+                git branch: 'master', url: 'https://github.com/mohamedalakhdar/AWS-EKS-CI-CD-Pipeline-Jenkins-Argo-CD-Monitoring.git' , credentialsId: 'github-credential'
             }
         }
         
