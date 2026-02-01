@@ -22,6 +22,8 @@ Performed Docker image scanning with Trivy to identify security issues.
 
 Finalized the pipeline with cleanup and post-build actions to maintain a stable CI environment.
 
+Jenkins sends a notification email upon pipeline completion to report the build status.
+
 ![alt text](<Screenshot 2026-02-01 160128.png>)
 
 ## GitOps / CD process (ArgoCD & EKS)
